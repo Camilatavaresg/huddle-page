@@ -4,7 +4,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <title>Frontend Mentor | Huddle landing page with alternating feature blocks</title>
+  <title>Huddle landing page</title>
+  <script src="https://unpkg.com/feather-icons"></script>
+  <link rel="stylesheet" href="assets/stylesheets/style.css">
+  <link rel="stylesheet" href="assets/stylesheets/header.css">
 </head>
 <body>
   <header>
@@ -12,11 +15,17 @@
       <img src="assets/images/logo.svg" alt="huddle logo">
       <button>Try it for free</button>
     </div>
-    <div class="header-content">
-      <h2>Build The Community Your Fans Will Love</h2>
-      <p>Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create connections with your users as you engage in genuine discussion. </p>
-      <button>Get Started For Free</button>
+    <div class="header-container">
+      <div class="header-content">
+        <h2>Build The Community Your Fans Will Love</h2>
+        <p>Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create connections with your users as you engage in genuine discussion. </p>
+        <button class="pink-button">Get Started For Free</button>
+      </div>
+      <div class="header-img">
+        <img src="assets/images/illustration-mockups.svg" alt="">
+      </div>
     </div>
+
   </header>
   <main>
     <div class="content-container">
@@ -39,7 +48,7 @@
     </div>
     <div class="start-container">
       <h3>Ready To Build Your Community?</h3>
-      <button>Get started for free</button>
+      <button class="pink-button">Get started for free</button>
     </div>
   </main>
   <footer>
@@ -64,12 +73,15 @@
       <a href="">Blog</a>
       <a href="">Contact us</a>
       <div class="social-media">
-        <img src="assets/images/" alt="">
-        <img src="" alt="">
-        <img src="" alt="">
+        <i data-feather="instagram"></i>
+        <i data-feather="facebook"></i>
+        <i data-feather="youtube"></i>
       </div>
     </div>
     <p> &copy; Copyright 2018 Huddle. All rights reserved.</p>
   </footer>
+  <script>
+    feather.replace()
+  </script>
 </body>
 </html>
