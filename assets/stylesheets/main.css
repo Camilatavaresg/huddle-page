@@ -1,0 +1,29 @@
+.content-container {
+     font-family: 'Open Sans', sans-serif;
+     border-radius: 15px;
+     box-shadow: rgb(145, 144, 144) 0.5px 0.5px 20px -12px;
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+     width: 80%;
+     margin: 0 auto 2.5rem;
+     padding: 2rem;
+}
+
+.written-content {
+     width: 30%;
+}
+
+.written-content h3 {
+     font-size: 25px;
+     color: var(--Very-Dark-Cyan);
+}
+
+.written-content p {
+     color: var(--Grayish-Blue);
+}
+
+.content-container img {
+     width: 350px;
+     height: 270px;
+}

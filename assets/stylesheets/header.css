@@ -2,7 +2,7 @@ header {
      background: url('../images/bg-hero-desktop.svg');
      background-size: cover;
      font-family: 'Poppins', sans-serif;
-     padding-bottom: 3rem;
+     padding-bottom: 4rem;
 }
 
 .heading {
@@ -66,5 +66,6 @@ button {
 
 .header-img img {
      width: 88%;
+     min-width: 450px;
      margin: 0 auto;
 }
