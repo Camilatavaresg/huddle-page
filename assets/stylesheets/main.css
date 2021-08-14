@@ -1,5 +1,10 @@
-.content-container {
+main {
+     margin-top: 5rem;
+     padding-bottom: 8rem;
      font-family: 'Open Sans', sans-serif;
+}
+
+.content-container {
      border-radius: 15px;
      box-shadow: rgb(145, 144, 144) 0.5px 0.5px 20px -12px;
      display: flex;
@@ -7,11 +12,11 @@
      align-items: center;
      width: 80%;
      margin: 0 auto 2.5rem;
-     padding: 2rem;
+     padding: 2rem 1.5rem;
 }
 
 .written-content {
-     width: 30%;
+     width: 35%;
 }
 
 .written-content h3 {
@@ -27,3 +32,4 @@
      width: 350px;
      height: 270px;
 }
+
