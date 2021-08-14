@@ -8,7 +8,7 @@ main {
      border-radius: 15px;
      box-shadow: rgb(145, 144, 144) 0.5px 0.5px 20px -12px;
      display: flex;
-     justify-content: space-evenly;
+     justify-content: space-around;
      align-items: center;
      width: 80%;
      margin: 0 auto 2.5rem;
@@ -16,7 +16,7 @@ main {
 }
 
 .written-content {
-     width: 35%;
+     width: 36%;
 }
 
 .written-content h3 {
@@ -28,8 +28,65 @@ main {
      color: var(--Grayish-Blue);
 }
 
-.content-container img {
-     width: 350px;
-     height: 270px;
+.img-content {
+     width: 30%;
 }
 
+.img-content img {
+     width: 100%;
+     max-width: 350px;
+}
+
+
+
+/* responsive design */
+
+/* medium screen */
+
+@media screen and (max-width:1000px) {
+
+     .content-container{
+          padding: 2rem 1.2rem;
+     }
+
+     .written-content {
+          width: 45%;
+     }
+
+     .written-content:nth-child(even) {
+          padding-left: 0.7rem;
+     }
+
+     .img-content {
+          width: 40%;
+     }
+}
+
+/* tablet */
+
+@media screen and (max-width:768px) {
+     .content-container {
+          flex-direction: column;
+          text-align: center;
+     }
+
+     .content-container:nth-child(odd){
+          flex-direction: column-reverse;
+     }
+
+     .written-content {
+          width: 90%;
+     }
+
+     .img-content {
+          width: 60%;
+     }
+}
+/* phone */
+
+@media screen and (max-width:480px) {
+     
+     .written-content {
+          width: 95%;
+     }
+}

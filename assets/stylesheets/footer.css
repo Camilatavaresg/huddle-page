@@ -69,14 +69,98 @@ footer > img {
      grid-template-columns: 50% 50%;
      grid-gap: 2px;
      margin-right: 2.5rem;
+     margin-top: 15px;
 }
 
 .social-media {
      display: flex;
      justify-content: center;
+     margin-top: 15px;
 }
 
 .social-media svg {
      margin: 0 0.5rem;
 }
 
+/* responsive design */
+
+/* medium screen */
+
+@media screen and (max-width:1000px) {
+     
+     footer {
+          padding: 6rem 1.5rem 2rem;
+     }
+
+}
+
+/* tablet */
+
+@media screen and (max-width:768px) {
+
+     .start-container {
+          max-width: 410px;
+          left: calc(50% - 205px);;
+     }
+
+     .footer-container {
+          display: grid;
+          grid-template-columns: 4fr 1fr;
+     }
+
+     .footer-content p {
+          margin: 12px 0;
+     }
+
+     .social-media {
+          padding-top: 18px;
+          justify-content: flex-start;
+     }
+
+     .footer-info a {
+          width: 80px;
+     }
+}
+
+/* large phone */
+
+@media screen and (max-width:580px) {
+     
+     footer {
+          height: 550px;
+          position: relative;
+     }
+
+     .footer-container {
+          display: grid;
+          grid-template-columns: 1fr;
+     }
+
+     .footer-info {
+          width: 200px;
+     }
+
+     footer > p {
+          position: absolute;
+          left: calc(50% - 153px);
+          bottom: 15px;
+     }
+
+     .social-media {
+          padding-top: 18px;
+          justify-content: center;
+          margin-bottom: 15px;
+     }
+
+
+}
+
+/* phone */
+
+@media screen and (max-width:480px) {
+     
+     .start-container {
+          max-width: 320px;
+          left: calc(50% - 160px);
+     }
+}
