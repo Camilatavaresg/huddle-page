@@ -119,13 +119,26 @@ button {
           width: 85%;
           margin: 4rem auto 0;
      }
-
 }
+
+/* small tablets */
+
+@media screen and (max-width:580px) {
+     
+     .heading button {
+          display: none;
+     }
+}
+
+
 /* phone */
 
 @media screen and (max-width:480px) {
      
      .heading {
           padding: 2rem 1rem;
+          margin: 0 0 1rem;
+          padding-left: 2rem;
      }
+
 }

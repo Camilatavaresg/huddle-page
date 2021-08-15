@@ -82,6 +82,8 @@ main {
           width: 60%;
      }
 }
+
+
 /* phone */
 
 @media screen and (max-width:480px) {
