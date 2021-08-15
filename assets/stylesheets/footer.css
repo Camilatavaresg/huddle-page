@@ -201,4 +201,9 @@ footer {
      .footer-info {
           margin: 20px auto 0;
      }
+
+     .footer-content p {
+          color: var(--Very-Pale-Cyan);
+          text-decoration: none;
+     }
 }
